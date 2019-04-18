@@ -1,1 +1,0 @@
-# The-almost-everthing-store
