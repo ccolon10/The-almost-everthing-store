@@ -1,8 +1,8 @@
 <!DOCTYPE html> <html><head>
-        <title>The almost everthing store</title>
-        <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Fruktur|Permanent+Marker" rel="stylesheet">
-    <script>function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+      <title>The Almost Store</title>
+      <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Fruktur|Permanent+Marker" rel="stylesheet">
+  <script>function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 /*! jQuery v3.2.1 | (c) JS Foundation and other contributors | jquery.org/license */
 !function (a, b) {
@@ -4101,29 +4101,20 @@ img{
 .cart{
     border:5px solid yellow;
 }</style></head>
-    <body>
-        <div class="storeName">The Almost Everthing Store  🤣</div>
-        <div class="cart">
-            <div class="item heading">
-                
-                <p>Name of Product</p>
-                <p>Price of Product</p>
-                <p class="number">Items in Cart:</p>
-            </div>
-        </div>
-        <div class="inputs">
-           <div>Paste Img Url:<input class="itemImage"></div> 
-           <div>Product Name:<input class="itemName"></div> 
-           <div>Product Price:<input class="itemPrice"> </div>
-        </div>
-        <div class="buttonDiv">
-            <button class="newItem">Add New Item</button>
-            <button class="purchase">Purchase all Items</button>
-        </div>
-        <div class="heading total"><p>Total: </p></div>
-         
-    
-
+  <body>
+      <div class="storeName"><img src="https://m.media-amazon.com/images/I/319QhBmNpRL._SR500,500_.jpg"></div>
+      <div class="inputs">
+         <div>Product Name:<input class="itemName"></div> 
+         <div>Product Price:<input class="itemPrice"> </div>
+      </div>
+      <div class="buttonDiv">
+          <button class="newItem">Add New Item</button>
+          <button class="purchase">Purchase all Items</button>
+      </div>
+      <div class="heading total"><p>Total:<span class="totalPrice"></span></p></div>
+      
+       
+  
 <script>
 /*__POPCODESTART__*/
 var names = [];
@@ -4148,7 +4139,4 @@ $(".purchase").click(function(){
        priceTotal += element;
    });
    $(".totalPrice").text(priceTotal);
-});
-
-
-</script></body></html>
+});</script></body></html>
