@@ -21,5 +21,3 @@ $(".purchase").click(function(){
    });
    $(".totalPrice").text(priceTotal);
 });
-
-
